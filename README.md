@@ -11,3 +11,6 @@ Clone the theme, run ```npm install``` and start playing.
 2. ``` gulp production ``` Will compile and minify assets. 
 
 Make sure to modify the BrowserSync proxy link inside the gulpfile.js. 
+
+## Vue devtools
+Download it [here](https://github.com/vuejs/vue-devtools#vue-devtools)

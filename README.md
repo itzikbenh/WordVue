@@ -1,4 +1,4 @@
-# WordPress starter theme with Vue.js integratd.
+# WordPress starter theme with Vue.js integrated.
 This theme pretty much includes only a way to compile your assets with Vue code. 
 It's meant for you to learn Vue inside WordPress, or to create your own theme.
 It includes an example component. 

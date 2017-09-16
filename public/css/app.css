@@ -1,6 +1,1 @@
-#app h1 {
-  font-size: 60px;
-  text-align: center;
-  background: -webkit-linear-gradient(#41B883, #35495E);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+#app h1{font-size:60px;text-align:center;background:-webkit-linear-gradient(#41b883,#35495e);-webkit-background-clip:text;-webkit-text-fill-color:transparent}

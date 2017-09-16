@@ -6,11 +6,11 @@ I'm using Gulp+Webpack to compile the assets. Gulp handles the CSS and running W
 
 Clone the theme, run ```npm install``` and start playing. 
 
-## commands
+Make sure to modify the BrowserSync proxy link inside the gulpfile.js. 
+
+## Commands
 1. ``` gulp ``` Will compile, start BrowserSync and watch for any changes.
 2. ``` gulp production ``` Will compile and minify assets. 
-
-Make sure to modify the BrowserSync proxy link inside the gulpfile.js. 
 
 ## Vue devtools
 Download it [here](https://github.com/vuejs/vue-devtools#vue-devtools)

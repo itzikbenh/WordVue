@@ -6,7 +6,7 @@ I'm using Gulp+Webpack to compile the assets. Gulp handles the CSS and running W
 
 Clone the theme, run ```npm install``` and start playing. 
 
-##commands
+## commands
 1. ``` gulp ``` Will compile, start BrowserSync and watch for any changes.
 2. ``` gulp production ``` Will compile and minify assets. 
 

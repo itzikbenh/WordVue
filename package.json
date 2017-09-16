@@ -4,8 +4,7 @@
   "description": "WordPress theme with Vue.js integrated",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Isaac Ben",
   "license": "ISC",

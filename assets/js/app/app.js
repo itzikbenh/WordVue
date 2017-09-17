@@ -6,7 +6,7 @@ window.Vue = Vue;
 Vue.component('welcome', welcome);
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
 });
 
 

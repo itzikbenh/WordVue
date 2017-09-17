@@ -32,7 +32,7 @@ gulp.task('sass-vendor', function() {
 });
 
 gulp.task('webpack', function() {
-return gulp.src('./assets/src/js/app/app.js')
+return gulp.src('./assets/js/app/app.js')
     .pipe(webpackStream( require('./webpack.config.js'), webpack ))
     .on('error', swallowError)
     .pipe(gulp.dest('./public/js'));
@@ -41,7 +41,7 @@ return gulp.src('./assets/src/js/app/app.js')
 gulp.task('production', function() {
     //Setting ENV to production so Webpack will minify JS files. 
     process.env.NODE_ENV = 'production';
-    gulp.src('./assets/js/app.js')
+    gulp.src('./assets/js/app/app.js')
         .pipe(webpackStream( require('./webpack.config.js'), webpack ))
         .pipe(gulp.dest('./public/js'));
 

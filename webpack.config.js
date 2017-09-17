@@ -40,7 +40,7 @@ const config = {
 	]
 };
 
-//If true JS and CSS files will be minified
+//If true JS files will be minified
 if (process.env.NODE_ENV === 'production') {
 	config.plugins.push(
 		new UglifyJSPlugin({

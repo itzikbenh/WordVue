@@ -41,7 +41,7 @@ return gulp.src('./assets/src/js/app/app.js')
 gulp.task('production', function() {
     //Setting ENV to production so Webpack will minify JS files. 
     process.env.NODE_ENV = 'production';
-    gulp.src('./assets/app.js')
+    gulp.src('./assets/js/app.js')
         .pipe(webpackStream( require('./webpack.config.js'), webpack ))
         .pipe(gulp.dest('./public/js'));
 
